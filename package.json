@@ -1,0 +1,8 @@
+{
+  "name": "projectdb",
+  "version": "0.1.0",
+  "description": "Database Project",
+  "devDependencies": {
+    "ollieread/multiauth": "dev-master"
+  }
+}

@@ -1,0 +1,20 @@
+<a class="product-item"
+   ng-repeat="category in items"
+   href="/shop?cat_id={{ category.id }}">
+		<div class="imageWrapper">
+			<img ng-src="{{ category.image }}" class="product-img img-responsive"
+				 style="opacity: 1; width: 100%">
+		</div>
+
+		<div class="description">
+			<div class="productName" ng-bind="category.name"></div>
+		</div>
+		<div class="overlay"></div>
+</a>
+<div class="page" style="overflow: hidden;">
+	<pagination total-items="bigTotalItems[0]" ng-model="bigCurrentPage[0]" 
+							max-size="maxSize" class="pagination-sm" 
+							boundary-links="false" items-per-page="numPerPage"
+							previous-text="&laquo;" next-text="&raquo;"
+							style="display: block; overflow: hidden; margin-left: 45%"></pagination>
+</div>

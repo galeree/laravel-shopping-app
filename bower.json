@@ -1,0 +1,9 @@
+{
+  "name": "bootstrap-sass-official",
+  "description": "Install bootstrap sass",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.3",
+    "angular-strap": "~2.1.6"
+  }
+}
